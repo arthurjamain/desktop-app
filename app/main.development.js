@@ -42,13 +42,13 @@ const installExtensions = async () => {
 };
 
 app.on('ready', async () => {
+
   await installExtensions();
 
   mainWindow = new BrowserWindow({
     show: false,
     width: 1024,
     height: 728,
-    frame: false,
     title: 'Sketchfab'
   });
 

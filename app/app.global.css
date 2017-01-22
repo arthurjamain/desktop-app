@@ -1,0 +1,28 @@
+@import 'assets/fonts/stylesheet.css';
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background: #555;
+  font-family: 'Open Sans';
+}
+
+#root > div {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.sidebar-container {
+  position: relative;
+  height: 100%;
+  margin-top: -1px;
+}
+
+.container-wrapper {
+  padding: 20px;
+}
+
+a, .fa {
+  transition: color 150ms ease-in-out, background 150ms ease-in-out;
+}

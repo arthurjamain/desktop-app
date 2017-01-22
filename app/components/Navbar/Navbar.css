@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: 60px;
+  background: #444;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid #666;
+}
+
+.sidebarButton {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebarButtonLogo {
+  color: #222;
+  text-shadow: 0 1px rgba(255, 255, 255, .2);
+}
+
+.sidebarButton:hover .sidebarButtonLogo {
+  color: #1caad9;
+}
+
+.logo {
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 10px;
+}

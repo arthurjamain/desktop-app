@@ -1,0 +1,44 @@
+.root {
+  box-shadow: 5px 0 5px #000;
+}
+
+.container {
+  background: #333;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+  border-right: 1px solid rgb(43, 43, 43);
+}
+
+.section {
+  font-size: 18px;
+  color: #1caad9;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #444;
+  margin-bottom: 15px;
+}
+
+.sectionContainer:not(:first-child) {
+  margin-top: 20px;
+}
+
+.linkLabel {
+}
+
+.link {
+  text-decoration: none;
+  color: #AAA;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.link:hover {
+  color: #1caad9;
+  background: rgba(0, 0, 0, .2);
+}

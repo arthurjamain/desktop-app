@@ -1,0 +1,32 @@
+@import '../../../node_modules/font-awesome/css/font-awesome.css';
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans/OpenSans-Regular.eot');
+    src: url('OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans/OpenSans-Regular.woff') format('woff'),
+         url('OpenSans/OpenSans-Regular.ttf') format('truetype'),
+         url('OpenSans/OpenSans-Regular.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans/OpenSans-Bold.eot');
+    src: url('OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans/OpenSans-Bold.woff') format('woff'),
+         url('OpenSans/OpenSans-Bold.ttf') format('truetype'),
+         url('OpenSans/OpenSans-Bold.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans/OpenSans-Light.eot');
+    src: url('OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans/OpenSans-Light.woff') format('woff'),
+         url('OpenSans/OpenSans-Light.ttf') format('truetype'),
+         url('OpenSans/OpenSans-Light.svg#open_sanslight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}

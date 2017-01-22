@@ -1,0 +1,22 @@
+.container {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 12.5px;
+  height: 25px;
+}
+
+.field {
+  height: 100%;
+  width: 100%;
+  border: none;
+  appearance: none;
+  background: #555;
+  border: 1px solid #666;
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #999;
+}
